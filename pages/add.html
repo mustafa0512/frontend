@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/add.css">
+    <link rel="shortcut icon" href="../assets/images/code.svg">
+    <title>Add</title>
+</head>
+
+<body>                                                                                                                 
+    <div class="block">
+        <div class="container">
+            <h1 class="title">добавление, изменение и удаление элемента из таблицы</h1>
+
+            <div class="adding">
+                <form name="todo">  
+                    <label>
+                        <p class="text_top">Имя</p>
+                        <input class="input_for_create" name="name" type="text" placeholder="Bruce Reyes">
+                    </label>
+                    <label>
+                        <p class="text_top">Возраст</p>
+                        <input class="input_for_create" name="year" type="number" placeholder="24">
+                    </label>
+                    <button class="show_button">Показать</button>
+                    <a href="../index.html" class="toHome">
+                        Домой
+                    </a>
+                </form>
+
+                <div class="about">
+                    <p>No</p>
+                    <p>Имя студента</p>
+                    <p>Год рождения</p>
+                    <p>Действия</p>
+                </div>
+
+                <div class="student"></div>
+
+                
+                <div class="modal_bg"></div>
+                <div class="modal">
+                    <label>
+                        <p class="text_top">Имя</p>
+                        <input type="text" class="for_edit for_edit_name">
+                    </label>
+                    <label>
+                        <p class="text_top">Возраст</p>
+                        <input type="text" class="for_edit for_edit_year">
+                    </label>
+
+                   
+                    <button class="save">Сохранить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="../scripts/add.js"></script>
+</body>
+
+</html>

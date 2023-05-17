@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.for_img {
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text p {
+    width: 775px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Macbock {
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Macbock-img {
+    width: 200px;
+    height: 190px;
+    background-image: url(../assets/img/silver-select.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1000ms ease-in-out;
+}
+
+.Macbock-text {
+    width: 300px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.Macbock-text-top h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Macbock-text-top p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0071E3;
+}
+
+.value-one {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.color {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    width: 100px;
+    height: 35px;
+    background: #0071E3;
+    border-radius: 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gray {
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    background: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* ----- */
+
+.white-active {
+    width: 100px;
+    height: 35px;
+    background: #CFE7FF;
+    border-radius: 10px;
+    color: #797979;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gray-active {
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    background: #0071E3;
+    border-radius: 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Macbock-img-active {
+    width: 200px;
+    height: 190px;
+    background-image: url(../assets/img/space-gray.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1000ms ease-in-out;
+}
+
+/* ----- */
+
+.storage-block {
+    width: 250px;
+    height: 200px;
+}
+
+.storage {
+    width: 220px;
+    height: 45px;
+    background-color: transparent;
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid #007FFF;
+}
+
+.storage-one {
+    width: 220px;
+    height: 45px;
+    background-color: transparent;
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid #007FFF;
+}
+
+.storage-first {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 10px 0 10px;
+    border: 2px solid #CFE7FF;
+}
+
+.storage-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    border: 2px solid #CFE7FF;
+}
+
+.storage-second h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.storage-second p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.storage-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    border: 2px solid #CFE7FF;
+}
+
+.storage-third h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.storage-third p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.storage-fourth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    border: 2px solid #CFE7FF;
+}
+
+.storage-fourth h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.storage-fourth p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.storage-active {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 10px 0 10px;
+    border: 2px solid #007FFF;
+}
